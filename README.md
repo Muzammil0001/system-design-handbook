@@ -69,21 +69,6 @@ Worked designs, each with requirements, estimation, high-level design, deep dive
 - Distributed cache
 - Notification system
 
-## Repository layout
-
-Each topic lives in its own folder with a `README.md` and an `images/` folder for diagrams:
-
-```
-system-design-handbook/
-├── README.md
-├── zero-to-million-users/
-│   ├── README.md
-│   └── images/
-├── consistent-hashing/
-│   ├── README.md
-│   └── images/
-└── ...
-```
 
 ## How to approach a design problem
 
