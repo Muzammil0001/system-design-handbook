@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 230" width="800" height="230" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Web tier and data tier running on separate servers">
+<title>Web tier and data tier running on separate servers</title>
+<defs><style>.d{fill:#374151;stroke:none}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker></defs>
+<rect width="800" height="230" fill="#FFFFFF"/>
+<rect x="30" y="80" width="150" height="70" rx="10" fill="#F3F4F6" stroke="#6B7280" stroke-width="2"/>
+<text x="105.0" y="111.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Client</text>
+<text x="105.0" y="130.0" text-anchor="middle" font-size="12" fill="#4B5563">Browser / mobile app</text>
+<circle cx="174" cy="82" r="17" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+<g transform="translate(174,82) scale(0.85)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="-11" y="-9" width="22" height="14" rx="2"/><line x1="-5" y1="10" x2="5" y2="10"/><line x1="0" y1="5" x2="0" y2="10"/></g>
+<rect x="325" y="80" width="150" height="70" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+<text x="400.0" y="111.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Web tier</text>
+<text x="400.0" y="130.0" text-anchor="middle" font-size="12" fill="#4B5563">application logic</text>
+<circle cx="469" cy="82" r="17" fill="#FFFFFF" stroke="#16A34A" stroke-width="2"/>
+<g transform="translate(469,82) scale(0.85)" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="-10" y="-11" width="20" height="9" rx="2"/><rect x="-10" y="2" width="20" height="9" rx="2"/><circle cx="-5" cy="-6.5" r="1" class="d"/><circle cx="-5" cy="6.5" r="1" class="d"/><line x1="1" y1="-6.5" x2="7" y2="-6.5"/><line x1="1" y1="6.5" x2="7" y2="6.5"/></g>
+<rect x="620" y="80" width="150" height="70" rx="10" fill="#FFEDD5" stroke="#EA580C" stroke-width="2"/>
+<text x="695.0" y="111.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Data tier</text>
+<text x="695.0" y="130.0" text-anchor="middle" font-size="12" fill="#4B5563">database</text>
+<circle cx="764" cy="82" r="17" fill="#FFFFFF" stroke="#EA580C" stroke-width="2"/>
+<g transform="translate(764,82) scale(0.85)" fill="none" stroke="#EA580C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="0" cy="-8" rx="9" ry="3.5"/><path d="M-9,-8 V8 A9,3.5 0 0 0 9,8 V-8"/><path d="M-9,0 A9,3.5 0 0 0 9,0"/></g>
+<polyline points="180,115 325,115" fill="none" stroke="#374151" stroke-width="2" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="185.51999999999998" y="86.0" width="132.96" height="22" rx="4" fill="#FFFFFF"/>
+<text x="252" y="101.0" text-anchor="middle" font-size="12" fill="#111827">request / response</text>
+<polyline points="475,115 620,115" fill="none" stroke="#374151" stroke-width="2" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="517.48" y="86.0" width="59.040000000000006" height="22" rx="4" fill="#FFFFFF"/>
+<text x="547" y="101.0" text-anchor="middle" font-size="12" fill="#111827">queries</text>
+<text x="400" y="200" text-anchor="middle" font-size="13" fill="#4B5563">Each tier now scales, fails and is secured on its own</text>
+</svg>
