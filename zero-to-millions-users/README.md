@@ -1,4 +1,4 @@
-# Zero to Millions of Users
+# Zero to Millions of Users 📈
 
 ## What it is
 
