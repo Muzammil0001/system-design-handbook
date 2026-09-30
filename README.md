@@ -8,67 +8,43 @@ A practical, open handbook for learning and revising **system design**: the core
 - Developers moving from writing features to designing systems
 - Anyone who wants a quick reference for distributed systems fundamentals
 
-## Contents
+## Topics
 
-### 1. Fundamentals
-- Scalability (vertical vs. horizontal)
-- Latency, throughput, and availability
-- Reliability, fault tolerance, and redundancy
-- CAP theorem and PACELC
-- Consistency models (strong, eventual, causal)
+Each topic lives in its own folder with a `README.md` and an `images/` folder for diagrams.
 
-### 2. Building Blocks
+1. [Zero to Millions of Users](zero-to-millions-users/README.md)
+
+### Planned topics
+
 - Load balancers
-- Reverse proxies and API gateways
-- Caching (CDN, in-memory, write-through, write-back, eviction policies)
-- Databases (SQL vs. NoSQL, indexing, replication, sharding, partitioning)
-- Message queues and event streaming
-- Object and blob storage
-- Search systems
-
-### 3. Communication and APIs
-- REST, gRPC, GraphQL
-- WebSockets, long polling, server-sent events
-- Rate limiting and throttling
-- Idempotency and API versioning
-
-### 4. Distributed Systems Concepts
-- Consensus (Paxos, Raft)
-- Leader election
+- Caching
+- Database replication and sharding
+- Message queues
 - Consistent hashing
-- Distributed transactions (2PC, saga)
-- Clocks and ordering
-- Service discovery
-
-### 5. Architecture Patterns
-- Monolith vs. microservices
-- Event-driven architecture
-- CQRS and event sourcing
-- Pub/sub
-- Back pressure and circuit breakers
-
-### 6. Observability and Operations
-- Logging, metrics, tracing
-- Monitoring and alerting
-- Deployment strategies (blue/green, canary)
-- Disaster recovery
-
-### 7. Security
-- Authentication and authorization
-- Encryption in transit and at rest
-- Common attack mitigations
-
-### 8. Case Studies
-Worked designs, each with requirements, estimation, high-level design, deep dives, and trade-offs:
-- URL shortener
+- CAP theorem
 - Rate limiter
+- URL shortener
 - News feed
 - Chat application
-- Video streaming platform
-- Ride-hailing service
-- Distributed cache
-- Notification system
 
+## Repository layout
+
+```
+system-design-handbook/
+├── README.md
+└── zero-to-millions-users/
+    ├── README.md
+    └── images/
+        ├── architecture.png
+        └── scaling.png
+```
+
+## Adding a new topic
+
+1. Create `topic-name/` with a `README.md` and an `images/` folder.
+2. Explain the topic in `README.md` and keep all diagrams in `images/` with clear file names.
+3. Add reference and source links at the end of the topic `README.md`.
+4. Add the topic to the list above with a relative link.
 
 ## How to approach a design problem
 
