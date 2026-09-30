@@ -79,14 +79,3 @@ Worked designs, each with requirements, estimation, high-level design, deep dive
 5. **Deep dive** into the bottlenecks and critical components.
 6. **Discuss trade-offs**, failure modes, and how the system evolves.
 
-## Contributing
-
-Contributions are welcome: fixes, new topics, diagrams, and case studies.
-
-1. Fork the repository
-2. Create a branch (`git checkout -b topic/my-change`)
-3. Commit your changes and open a pull request
-
-## License
-
-To be decided. Add a `LICENSE` file to specify how this content may be used.
