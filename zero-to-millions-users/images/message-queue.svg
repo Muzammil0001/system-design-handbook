@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 340" width="800" height="340" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Producers publishing to a message queue and workers consuming from it">
+<title>Producers publishing to a message queue and workers consuming from it</title>
+<defs><style>.d{fill:#374151;stroke:none}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker></defs>
+<rect width="800" height="340" fill="#FFFFFF"/>
+<text x="100" y="28" text-anchor="middle" font-size="13" fill="#111827" font-weight="700">Producers</text>
+<text x="420" y="28" text-anchor="middle" font-size="13" fill="#111827" font-weight="700">Message queue</text>
+<text x="725" y="28" text-anchor="middle" font-size="13" fill="#111827" font-weight="700">Consumers</text>
+<rect x="30" y="55" width="140" height="70" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+<text x="100.0" y="95.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Web server</text>
+<circle cx="164" cy="57" r="17" fill="#FFFFFF" stroke="#16A34A" stroke-width="2"/>
+<g transform="translate(164,57) scale(0.85)" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="-10" y="-11" width="20" height="9" rx="2"/><rect x="-10" y="2" width="20" height="9" rx="2"/><circle cx="-5" cy="-6.5" r="1" class="d"/><circle cx="-5" cy="6.5" r="1" class="d"/><line x1="1" y1="-6.5" x2="7" y2="-6.5"/><line x1="1" y1="6.5" x2="7" y2="6.5"/></g>
+<rect x="30" y="215" width="140" height="70" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+<text x="100.0" y="255.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">API service</text>
+<circle cx="164" cy="217" r="17" fill="#FFFFFF" stroke="#16A34A" stroke-width="2"/>
+<g transform="translate(164,217) scale(0.85)" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="-10" y="-11" width="20" height="9" rx="2"/><rect x="-10" y="2" width="20" height="9" rx="2"/><circle cx="-5" cy="-6.5" r="1" class="d"/><circle cx="-5" cy="6.5" r="1" class="d"/><line x1="1" y1="-6.5" x2="7" y2="-6.5"/><line x1="1" y1="6.5" x2="7" y2="6.5"/></g>
+<rect x="320" y="115" width="200" height="100" rx="10" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2"/>
+<text x="420.0" y="170.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Queue</text>
+<circle cx="514" cy="117" r="17" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+<g transform="translate(514,117) scale(0.85)" fill="none" stroke="#7C3AED" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="-11" y="-5" width="6" height="10" rx="1.5"/><rect x="-3" y="-5" width="6" height="10" rx="1.5"/><rect x="5" y="-5" width="6" height="10" rx="1.5"/></g>
+<rect x="345" y="178" width="40" height="22" rx="4" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+<rect x="400" y="178" width="40" height="22" rx="4" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+<rect x="455" y="178" width="40" height="22" rx="4" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2"/>
+<rect x="650" y="55" width="130" height="70" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+<text x="715.0" y="95.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Worker 1</text>
+<circle cx="774" cy="57" r="17" fill="#FFFFFF" stroke="#16A34A" stroke-width="2"/>
+<g transform="translate(774,57) scale(0.85)" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="0" r="4"/><circle cx="0" cy="0" r="8"/><path d="M0,-11 V-8 M0,11 V8 M-11,0 H-8 M11,0 H8 M-7.8,-7.8 L-5.7,-5.7 M7.8,7.8 L5.7,5.7 M-7.8,7.8 L-5.7,5.7 M7.8,-7.8 L5.7,-5.7"/></g>
+<rect x="650" y="215" width="130" height="70" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+<text x="715.0" y="255.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Worker 2</text>
+<circle cx="774" cy="217" r="17" fill="#FFFFFF" stroke="#16A34A" stroke-width="2"/>
+<g transform="translate(774,217) scale(0.85)" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="0" r="4"/><circle cx="0" cy="0" r="8"/><path d="M0,-11 V-8 M0,11 V8 M-11,0 H-8 M11,0 H8 M-7.8,-7.8 L-5.7,-5.7 M7.8,7.8 L5.7,5.7 M-7.8,7.8 L-5.7,5.7 M7.8,-7.8 L5.7,-5.7"/></g>
+<polyline points="170,90 245,90 245,145 320,145" fill="none" stroke="#374151" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="185.48" y="64.0" width="59.040000000000006" height="22" rx="4" fill="#FFFFFF"/>
+<text x="215" y="79.0" text-anchor="middle" font-size="12" fill="#111827">publish</text>
+<polyline points="170,250 245,250 245,185 320,185" fill="none" stroke="#374151" stroke-width="2" marker-end="url(#ah)"/>
+<polyline points="520,145 590,145 585,90 650,90" fill="none" stroke="#374151" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="555.48" y="64.0" width="59.040000000000006" height="22" rx="4" fill="#FFFFFF"/>
+<text x="585" y="79.0" text-anchor="middle" font-size="12" fill="#111827">consume</text>
+<polyline points="520,185 590,185 585,250 650,250" fill="none" stroke="#374151" stroke-width="2" marker-end="url(#ah)"/>
+<text x="400" y="325" text-anchor="middle" font-size="13" fill="#4B5563">Producers do not wait. Workers scale on their own based on queue depth.</text>
+</svg>
