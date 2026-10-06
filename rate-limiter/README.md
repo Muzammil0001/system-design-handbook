@@ -207,5 +207,3 @@ Add a rate limiter to any public or multi-tenant API. Start with a gateway level
 - [Redis replication](https://redis.io/docs/latest/operate/oss_and_stack/management/replication/) for asynchronous replication and failover data loss.
 - [Redis MEMORY USAGE](https://redis.io/docs/latest/commands/memory-usage/) for measuring key size.
 - [GitHub REST API: rate limits](https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api) for an example of `x-ratelimit-*` headers.
-
-All diagrams in this topic are original and live in [`images/`](images/).
