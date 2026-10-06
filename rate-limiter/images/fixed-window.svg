@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Fixed window counter: 5 requests at the end of one window and 5 at the start of the next pass together">
+<title>Fixed window counter: 5 requests at the end of one window and 5 at the start of the next pass together</title>
+<defs><style>.d{fill:#374151;stroke:none}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker></defs>
+<rect width="800" height="360" fill="#FFFFFF"/>
+<rect x="60" y="90" width="340" height="110" rx="6" fill="#DBEAFE" stroke="#2563EB" stroke-width="2"/>
+<rect x="400" y="90" width="340" height="110" rx="6" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+<text x="230" y="115" text-anchor="middle" font-size="13" fill="#111827" font-weight="700">Window 1: limit 5</text>
+<text x="570" y="115" text-anchor="middle" font-size="13" fill="#111827" font-weight="700">Window 2: limit 5</text>
+<circle cx="300" cy="155" r="7" fill="#1D4ED8"/>
+<circle cx="322" cy="155" r="7" fill="#1D4ED8"/>
+<circle cx="344" cy="155" r="7" fill="#1D4ED8"/>
+<circle cx="366" cy="155" r="7" fill="#1D4ED8"/>
+<circle cx="388" cy="155" r="7" fill="#1D4ED8"/>
+<circle cx="412" cy="155" r="7" fill="#15803D"/>
+<circle cx="434" cy="155" r="7" fill="#15803D"/>
+<circle cx="456" cy="155" r="7" fill="#15803D"/>
+<circle cx="478" cy="155" r="7" fill="#15803D"/>
+<circle cx="500" cy="155" r="7" fill="#15803D"/>
+<line x1="60" y1="200" x2="740" y2="200" stroke="#374151" stroke-width="2"/>
+<line x1="60" y1="196" x2="60" y2="206" stroke="#374151" stroke-width="2"/>
+<text x="60" y="225" text-anchor="middle" font-size="12" fill="#4B5563">0:00</text>
+<line x1="400" y1="196" x2="400" y2="206" stroke="#374151" stroke-width="2"/>
+<text x="400" y="225" text-anchor="middle" font-size="12" fill="#4B5563">1:00</text>
+<line x1="740" y1="196" x2="740" y2="206" stroke="#374151" stroke-width="2"/>
+<text x="740" y="225" text-anchor="middle" font-size="12" fill="#4B5563">2:00</text>
+<path d="M300,248 V258 H500 V248" fill="none" stroke="#DC2626" stroke-width="2"/>
+<rect x="157.39999999999998" y="273.5" width="485.20000000000005" height="23" rx="4" fill="#FFFFFF"/>
+<text x="400" y="289.3333333333333" text-anchor="middle" font-size="13" fill="#111827">10 requests in about 35 seconds, though the limit is 5 per minute</text>
+<text x="30" y="335" text-anchor="start" font-size="13" fill="#4B5563">Each window stays within its own limit, but across the boundary up to twice the limit can pass.</text>
+</svg>
