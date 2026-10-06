@@ -4,9 +4,9 @@ A practical, open handbook for learning and revising **system design**: the core
 
 ## Who is this for?
 
-- Engineers preparing for system design interviews
-- Developers moving from writing features to designing systems
-- Anyone who wants a quick reference for distributed systems fundamentals
+- Engineers preparing for system design interviews.
+- Developers moving from writing features to designing systems.
+- Anyone who wants a quick reference for distributed systems fundamentals.
 
 ## Topics
 
