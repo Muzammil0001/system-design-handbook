@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="-apple-system, Segoe UI, Helvetica, Arial, sans-serif" role="img" aria-label="Token bucket: tokens refill at a fixed rate, each request takes one token, requests are rejected when the bucket is empty">
+<title>Token bucket: tokens refill at a fixed rate, each request takes one token, requests are rejected when the bucket is empty</title>
+<defs><style>.d{fill:#374151;stroke:none}</style><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker></defs>
+<rect width="800" height="380" fill="#FFFFFF"/>
+<rect x="300" y="20" width="200" height="56" rx="10" fill="#FEF9C3" stroke="#CA8A04" stroke-width="2"/>
+<text x="400.0" y="44.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Refiller</text>
+<text x="400.0" y="63.0" text-anchor="middle" font-size="12" fill="#4B5563">adds tokens at a fixed rate</text>
+<circle cx="494" cy="22" r="17" fill="#FFFFFF" stroke="#CA8A04" stroke-width="2"/>
+<g transform="translate(494,22) scale(0.85)" fill="none" stroke="#CA8A04" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="0" r="10"/><path d="M0,-6 V0 L5,3"/></g>
+<rect x="300" y="110" width="200" height="170" rx="14" fill="none" stroke="#7C3AED" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="314" y="132" font-size="13" font-weight="700" fill="#7C3AED">Bucket (capacity = burst)</text>
+<circle cx="340" cy="200" r="13" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-dasharray="0"/>
+<circle cx="380" cy="200" r="13" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-dasharray="0"/>
+<circle cx="420" cy="200" r="13" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-dasharray="0"/>
+<circle cx="460" cy="200" r="13" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-dasharray="0"/>
+<circle cx="340" cy="240" r="13" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-dasharray="0"/>
+<circle cx="380" cy="240" r="13" fill="#EDE9FE" stroke="#7C3AED" stroke-width="2" stroke-dasharray="0"/>
+<circle cx="420" cy="240" r="13" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2" stroke-dasharray="4 3"/>
+<circle cx="460" cy="240" r="13" fill="#FFFFFF" stroke="#7C3AED" stroke-width="2" stroke-dasharray="4 3"/>
+<text x="400" y="150" text-anchor="middle" font-size="12" fill="#4B5563">tokens</text>
+<rect x="30" y="170" width="130" height="70" rx="10" fill="#F3F4F6" stroke="#6B7280" stroke-width="2"/>
+<text x="95.0" y="210.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Request</text>
+<circle cx="154" cy="172" r="17" fill="#FFFFFF" stroke="#6B7280" stroke-width="2"/>
+<g transform="translate(154,172) scale(0.85)" fill="none" stroke="#6B7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="-11" y="-9" width="22" height="14" rx="2"/><line x1="-5" y1="10" x2="5" y2="10"/><line x1="0" y1="5" x2="0" y2="10"/></g>
+<rect x="640" y="130" width="130" height="70" rx="10" fill="#DCFCE7" stroke="#16A34A" stroke-width="2"/>
+<text x="705.0" y="161.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Allowed</text>
+<text x="705.0" y="180.0" text-anchor="middle" font-size="12" fill="#4B5563">request goes through</text>
+<circle cx="764" cy="132" r="17" fill="#FFFFFF" stroke="#16A34A" stroke-width="2"/>
+<g transform="translate(764,132) scale(0.85)" fill="none" stroke="#16A34A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="-10" y="-11" width="20" height="9" rx="2"/><rect x="-10" y="2" width="20" height="9" rx="2"/><circle cx="-5" cy="-6.5" r="1" class="d"/><circle cx="-5" cy="6.5" r="1" class="d"/><line x1="1" y1="-6.5" x2="7" y2="-6.5"/><line x1="1" y1="6.5" x2="7" y2="6.5"/></g>
+<rect x="640" y="220" width="130" height="70" rx="10" fill="#FEE2E2" stroke="#DC2626" stroke-width="2"/>
+<text x="705.0" y="251.0" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Rejected</text>
+<text x="705.0" y="270.0" text-anchor="middle" font-size="12" fill="#4B5563">HTTP 429</text>
+<circle cx="764" cy="222" r="17" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+<g transform="translate(764,222) scale(0.85)" fill="none" stroke="#DC2626" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="0" cy="0" r="10"/><line x1="-7" y1="7" x2="7" y2="-7"/></g>
+<polyline points="400,76 400,110" fill="none" stroke="#374151" stroke-width="2" marker-end="url(#ah)"/>
+<polyline points="160,205 300,205" fill="none" stroke="#374151" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="180.32" y="177.0" width="99.36000000000001" height="22" rx="4" fill="#FFFFFF"/>
+<text x="230" y="192.0" text-anchor="middle" font-size="12" fill="#111827">takes 1 token</text>
+<polyline points="500,165 640,165" fill="none" stroke="#374151" stroke-width="2" marker-end="url(#ah)"/>
+<rect x="530.4" y="137.0" width="79.2" height="22" rx="4" fill="#FFFFFF"/>
+<text x="570" y="152.0" text-anchor="middle" font-size="12" fill="#111827">token left</text>
+<polyline points="500,255 640,255" fill="none" stroke="#DC2626" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ah)"/>
+<rect x="523.68" y="227.0" width="92.64000000000001" height="22" rx="4" fill="#FFFFFF"/>
+<text x="570" y="242.0" text-anchor="middle" font-size="12" fill="#111827">bucket empty</text>
+<text x="30" y="330" text-anchor="start" font-size="13" fill="#4B5563">Refill rate sets the average rate. Bucket capacity sets the largest burst.</text>
+<text x="30" y="352" text-anchor="start" font-size="13" fill="#4B5563">Filled circles are available tokens. Dashed circles are empty slots.</text>
+</svg>

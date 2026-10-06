@@ -10,23 +10,8 @@ A practical, open handbook for learning and revising **system design**: the core
 
 ## Topics
 
-Each topic lives in its own folder with a `README.md` and an `images/` folder for diagrams.
-
-### 1. [Zero to Millions of Users](zero-to-millions-users/README.md)
-
-How a system grows from one server to millions of users: load balancing, stateless web tier, replication, caching, CDN, message queues, multiple data centers, sharding, and observability. Includes original diagrams and a sizing example.
-
-![DNS](https://img.shields.io/badge/DNS-2563EB?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Load Balancer](https://img.shields.io/badge/Load%20Balancer-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Web Servers](https://img.shields.io/badge/Web%20Servers-16A34A?style=for-the-badge&logo=nginx&logoColor=white)
-![Cache](https://img.shields.io/badge/Cache-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![CDN](https://img.shields.io/badge/CDN-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-![Replication](https://img.shields.io/badge/Replication-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Sharding](https://img.shields.io/badge/Sharding-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![Message Queue](https://img.shields.io/badge/Message%20Queue-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![Streaming](https://img.shields.io/badge/Streaming-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![Monitoring](https://img.shields.io/badge/Monitoring-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Dashboards](https://img.shields.io/badge/Dashboards-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+1. [Zero to Millions of Users](zero-to-millions-users/README.md)
+2. [Rate Limiter](rate-limiter/README.md)
 
 ## How I approach, analyze, and solve a design problem
 
